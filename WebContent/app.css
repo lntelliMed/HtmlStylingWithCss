@@ -2,6 +2,12 @@
 
 h1 {
 	color: red;
+	
+/* 	border-color: purple;
+	border-width: 5px;
+	border-style: solid; */
+	
+	border: 2px solid rgb(200,220,100);
 }
 
 h2 {
@@ -21,4 +27,12 @@ li {
 }
 h4 {
 	color: purple;
+	background: rgb(255,100,100);
+}
+
+body {
+	background: pink;
+/* 	background: url(https://s-media-cache-ak0.pinimg.com/736x/4a/e8/17/4ae81791a5125b768aaff6b8d89f2245--wood-grain-tile-wood-look-tile.jpg); */
+/* 	background-repeat: no-repeat; */
+/* 	background-size: cover; */
 }
