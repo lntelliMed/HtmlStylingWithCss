@@ -1,10 +1,12 @@
 @CHARSET "ISO-8859-1";
 p {
-	font-family: Arial;
+/* 	font-family: Arial; */
+	font-family: Quicksand;
 }
 
 h1 {
-	font-family: Georgia;
+/* 	font-family: Georgia; */
+	font-family: Indie Flower;
 }
 
 body {
@@ -26,8 +28,8 @@ span {
 }
 
 p {
-/* 	font-weight: normal; */
-	font-weight: bold;
+	font-weight: normal;
+/* 	font-weight: bold; */
 }
 
 p {
