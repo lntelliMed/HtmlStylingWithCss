@@ -1,3 +1,7 @@
+.container {
+  border-bottom: 1px solid gray;
+}
+
 .coolTitle {
   text-align: center;
   font-family: 'Oswald', Helvetica, sans-serif;
@@ -24,4 +28,24 @@
 
 span {
   display: flex;
+}
+
+li {
+  border-right: 1px solid gray;
+  padding-right: 5px;
+}
+
+button.delete {
+  background-color: gold;
+  color: black;
+  padding-left: 5px;
+  border-radius: 5%;
+  transition: all 0.3s ease;
+}
+
+button.delete:hover {
+  box-shadow: 1px 1px 1px gray;
+  background-color: rgb(233, 10, 10);
+  color: white;
+  transform: scale(1.05);
 }

@@ -1,6 +1,6 @@
 const button = document.getElementById("enter");
 const input = document.getElementById("userinput");
-const ul = document.querySelector("ul");
+const ol = document.querySelector("ol");
 const liElements = document.querySelectorAll("li");
 // const deleteButtonElements = document.querySelectorAll(".delete");
 
@@ -18,7 +18,7 @@ const createListElement = () => {
 	li.appendChild(document.createTextNode(input.value));
 	span.appendChild(li);
 	span.appendChild(deleteButton);
-	ul.appendChild(span);
+	ol.appendChild(span);
 	input.value = "";
 }
 
