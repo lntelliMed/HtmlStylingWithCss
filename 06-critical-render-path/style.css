@@ -1,0 +1,35 @@
+h1 {
+  color: green;
+}
+
+.important {
+  background: yellow;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.container img {
+  width: 500px;
+  height: auto;
+  margin: auto;
+}
+
+.container button {
+  width: 100px;
+  margin: 10px auto;
+  background: gold;
+  color: black;
+  transition: all 1s ease;
+}
+
+.container button:hover {
+  box-shadow: 1px 1px 1px gray;
+  transform: scale(1.1);
+}
+
